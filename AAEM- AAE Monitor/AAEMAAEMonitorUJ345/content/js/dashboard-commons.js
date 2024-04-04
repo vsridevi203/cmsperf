@@ -277,8 +277,8 @@ function prepareOptions(options, data) {
     options.canvas = true;
     var extraOptions = data.extraOptions;
     if(extraOptions !== undefined){
-        var xOffset = options.xaxis.mode === "time" ? 19800000 : 0;
-        var yOffset = options.yaxis.mode === "time" ? 19800000 : 0;
+        var xOffset = options.xaxis.mode === "time" ? 39600000 : 0;
+        var yOffset = options.yaxis.mode === "time" ? 39600000 : 0;
 
         if(!isNaN(extraOptions.minX))
         	options.xaxis.min = parseFloat(extraOptions.minX) + xOffset;
